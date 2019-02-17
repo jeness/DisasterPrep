@@ -1413,6 +1413,7 @@ MonoBehaviour:
   wall: {fileID: 0}
   count: 0
   standHere: {fileID: 0}
+  myPlayer: {fileID: 0}
 --- !u!54 &933402483
 Rigidbody:
   m_ObjectHideFlags: 0
