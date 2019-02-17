@@ -33,7 +33,7 @@ public class PlayerWalk : MonoBehaviour {
             Destroy(other.gameObject);
             count++;
             totalCoins.text = count.ToString();
-            if (count == 8)
+            if (count == 9)
             {
                 wall.SetActive(false);
                 standHere.SetActive(true);

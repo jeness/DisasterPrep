@@ -18,6 +18,7 @@ public class Collectable : MonoBehaviour {
     void Update () {
         if (text.activeSelf == true)
         {
+            text.transform.rotation = textRotation;
             myLight.SetActive(true);
             spin = new Vector3(1f, 1f, 0f);
             transform.Rotate(spin);
