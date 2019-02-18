@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyData/_Scenes/Menu-ruined.unity
     guid: 7101ed21db487954e8443a0d75cdc0cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/MyData/_Scenes/TestScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
