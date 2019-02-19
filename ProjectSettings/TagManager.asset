@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - Coin
+  - TVImage
   layers:
   - Default
   - TransparentFX
