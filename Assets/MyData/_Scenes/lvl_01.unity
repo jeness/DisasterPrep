@@ -6835,6 +6835,10 @@ Prefab:
       propertyPath: myPlayer
       value: 
       objectReference: {fileID: 1611069631}
+    - target: {fileID: 1159754776244882, guid: 9b534aba566a81241b203942ec98ec84, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114049690608980050, guid: 9b534aba566a81241b203942ec98ec84, type: 2}
     - {fileID: 114744051682189560, guid: 9b534aba566a81241b203942ec98ec84, type: 2}
@@ -6861,7 +6865,6 @@ MonoBehaviour:
   wall: {fileID: 1346442950}
   count: 0
   standHere: {fileID: 0}
-  myPlayer: {fileID: 0}
 --- !u!114 &1611069633
 MonoBehaviour:
   m_ObjectHideFlags: 0

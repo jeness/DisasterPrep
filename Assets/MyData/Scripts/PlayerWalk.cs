@@ -11,7 +11,7 @@ public class PlayerWalk : MonoBehaviour {
     public GameObject wall;
     public int count;
     public GameObject standHere;
-    public GameObject myPlayer;
+    //public GameObject myPlayer;
 
     void start()
     {
@@ -29,22 +29,22 @@ public class PlayerWalk : MonoBehaviour {
         {
             transform.position = transform.position + Camera.main.transform.forward * playerSpeed * Time.deltaTime;
         }
-        var vel = myPlayer.GetComponent<Rigidbody>().velocity;
-        AudioSource footstep = GetComponent<AudioSource>();
-        if (vel.magnitude != 0 && footstep.isPlaying == false)
-       // if (vel.magnitude != 0)
-        {
+        //var vel = myPlayer.GetComponent<Rigidbody>().velocity;
+        //AudioSource footstep = GetComponent<AudioSource>();
+       // if (vel.magnitude != 0 && footstep.isPlaying == false)
+       
+        //{
             //footstep.volume = Random.Range(0.8f, 1);
             //footstep.pitch = Random.Range(0.8f, 1.1f);
-            footstep.Play();
-            footstep.enabled = true;
-            footstep.loop = true;
-        }
-        if(vel.magnitude == 0)
-        {
-            footstep.enabled = false;
-            footstep.loop = false;
-        }
+        //    footstep.Play();
+       //     footstep.enabled = true;
+       //     footstep.loop = true;
+       // }
+       // if(vel.magnitude == 0)
+       // {
+       //     footstep.enabled = false;
+       //     footstep.loop = false;
+       // }
     }
 
     private void OnTriggerEnter(Collider other)
